@@ -1,0 +1,18 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/pkg-1:
+    specifiers: {}
+
+  packages/pkg-1/dist:
+    specifiers: {}
+
+  packages/pkg-2:
+    specifiers:
+      pkg-1: ^1.0.0
+    dependencies:
+      pkg-1: link:../pkg-1/dist
